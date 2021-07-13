@@ -7,6 +7,7 @@ npm install
 // or
 yarn install
 ```
++ Node 12+
 ### Usage
 It requrest 2 info from you.
 + Website's url

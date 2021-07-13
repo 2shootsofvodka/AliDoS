@@ -10,4 +10,4 @@ yarn install
 ### Usage
 It requrest 2 info from you.
 + Website's url
-+ How many u attack you want
++ How many attack you want

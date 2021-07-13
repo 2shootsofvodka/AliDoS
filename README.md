@@ -1,5 +1,5 @@
 # AliDoS
-A app for Distributed Network Attacks. That's for testing websites.
+A app for Distributed Network Attacks. This is just for testing websites.
 
 ### Installation
 ```javascript

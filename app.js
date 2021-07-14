@@ -48,7 +48,7 @@ readline.question("What's the target url? ", targetUrl =>{
           ]).then(axios.spread((response) => {
             console.log('\x1b[42m%s\x1b[0m', `${response.statusText} Status: ${response.status} Url: ${response.config.url}`);  //cyan
           })).catch(error => {
-            console.log('\x1b[41m%s\x1b[0m', `Unsuccessful : ${error}`);  //background-red
+            console.log('\x1b[41m%s\x1b[0m', error);  //background-red
           });
 
         }

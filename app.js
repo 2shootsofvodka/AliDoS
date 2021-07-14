@@ -1,7 +1,13 @@
 // importing modules
 import axios from 'axios'
 import rl from 'readline'
+// clearing console
+const blank = '\n'.repeat(process.stdout.rows)
+console.log(blank)
+rl.cursorTo(process.stdout, 0, 0)
+rl.clearScreenDown(process.stdout)
 
+// headers
 console.log('\x1b[41m%s\x1b[0m', 'AliDoS');  //background-red
 console.log('\x1b[4m%s\x1b[0m', 'By using this application you assume all legal and other responsibilities.\n');  //cyan
 
